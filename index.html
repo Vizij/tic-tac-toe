@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="A tic tac toe game for a Free Code Camp challenge.">
+		<title>Tic Tac Toe</title>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Acme%7CPermanent+Marker">
+		<link rel="stylesheet" href="styles/main.css">
+	</head>
+	<body>
+		<main>
+			<h1>Tic Tac Toe</h1>
+			<div id="scoreboard">
+				<div id="win">Player: 0</div>
+				<div id="lose">AI: 0</div>
+				<div id="draw">Draw: 0</div>
+			</div>
+			<div id="controls">
+				<p>Choose your destiny!</p>
+				<button class="xo">X</button> or <button class="xo">O</button>
+			</div>
+			<div id="grid">
+				<div>
+					<button id="square1" class="square" disabled=""></button>
+					<button id="square2" class="square" disabled=""></button>
+					<button id="square3" class="square" disabled=""></button>
+				</div>
+				<div>
+					<button id="square4" class="square" disabled=""></button>
+					<button id="square5" class="square" disabled=""></button>
+					<button id="square6" class="square" disabled=""></button>
+				</div>
+				<div>
+					<button id="square7" class="square" disabled=""></button>
+					<button id="square8" class="square" disabled=""></button>
+					<button id="square9" class="square" disabled=""></button>
+				</div>
+			</div>
+		</main>
+		<script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+		<script src="scripts/main.js"></script>
+	</body>
+</html>

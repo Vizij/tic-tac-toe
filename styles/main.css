@@ -1,0 +1,74 @@
+#scoreboard, #grid {
+	display: flex;
+		justify-content: space-between;
+}
+
+#win, #lose, #draw {
+	margin: -10px 10px 40px;
+}
+
+#grid {
+	height: 270px;
+	width: 270px;
+}
+
+#square4, #square6 {
+	border-left: solid 2px white;
+	border-right: solid 2px white;
+}
+
+#square2, #square8 {
+	border-top: solid 2px white;
+	border-bottom: solid 2px white;
+}
+
+#square5 {
+	border: solid 2px white;
+}
+
+#results {
+	font-size: 34px;
+	margin-top: 15px;
+}
+
+.xo {
+	background: none;
+	border: none;
+	color: red;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 48px;
+	margin: 15px 25px;
+}
+
+.square {
+	background: none;
+	border: none;
+	color: white;
+	cursor: pointer;
+	display: none;
+		justify-content: center;
+		align-items: center;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 36px;
+	height: 90px;
+	margin: -2px;
+	width: 90px;
+}
+
+body {
+	background-color: black;
+	color: white;
+}
+
+main {
+	display: flex;
+		align-items: center;
+		flex-direction: column;
+	font-family: 'Acme', sans-serif;
+	text-align: center;
+}
+
+h1 {
+	font-size: 48px;
+	margin-top: 35px;
+}
